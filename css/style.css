@@ -16,6 +16,7 @@ body{
     width: 100%;
     display: flex;
     justify-content: flex-end;
+    text-align: center;
 }
 .bgcolorf{
     background-color: #646161d4;
@@ -39,6 +40,8 @@ body{
 }
 .recipiente{
     height: 10vh;
+    display: flex;
+    flex-wrap: nowrap;
     justify-content: space-between;
     background-color: #383535d6;
     text-align: center;
@@ -67,5 +70,27 @@ main img{
 }
 .icone{
     width: 36px;
-    padding-bottom: 4px;
+}
+.icone2{
+    width: 42px;
+    padding-bottom: 12px;
+}
+.icone3{
+    width: 36px;
+    padding-bottom: 6px;
+}
+.icone4{
+    width: 36px;
+    padding-bottom: 13px;
+}
+.icone5{
+    width: 15px;
+}
+p{
+    padding-right: 15px;
+}
+.bcgfin{
+    background-color: #827f7fd6;
+    color: red;
+    padding: 20px;
 }
