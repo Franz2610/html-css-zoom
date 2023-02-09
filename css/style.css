@@ -69,19 +69,19 @@ main img{
    display: flex;
 }
 .icone{
-    width: 36px;
+    width: 30px;
 }
 .icone2{
     width: 42px;
-    padding-bottom: 12px;
+    padding: 4px;
 }
 .icone3{
     width: 36px;
-    padding-bottom: 6px;
+    padding: 6px;
 }
 .icone4{
     width: 36px;
-    padding-bottom: 13px;
+    padding: 5px;
 }
 .icone5{
     width: 15px;
