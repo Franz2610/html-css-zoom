@@ -16,11 +16,56 @@ body{
     width: 100%;
     display: flex;
     justify-content: flex-end;
-    padding-bottom: 1vh;
 }
 .bgcolorf{
     background-color: #646161d4;
 }
 .distanziare{
     padding: 10px;
+}
+.row{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 70%;
+    height: 85vh;
+    overflow-y:scroll;
+    padding: 10px;
+}
+.recipiente{
+    height: 10vh;
+    justify-content: space-between;
+    background-color: #383535d6;
+    text-align: center;
+}
+main img{
+    width: 100%;
+}
+.card{
+    position: relative;
+    cursor: pointer;
+    width: calc(100% / 7);
+}
+.name{
+    position: absolute;
+    padding: 2px;
+    text-align: left;
+    bottom: 10px;
+    padding-right: 5px;
+    background-color: rgba(152, 150, 150, 0.825);
+}
+.microfono{
+    width: 18px;
+}
+.vocale{
+   display: flex;
+}
+.icone{
+    width: 36px;
+    padding-bottom: 4px;
 }
